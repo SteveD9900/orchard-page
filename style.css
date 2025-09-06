@@ -90,7 +90,7 @@ body {
   .modal-content {
     display: block;
     margin: auto;
-    transform: scale(1); /* 1.5× zoom */
+    transform: scale(1);
     transition: transform 0.3s ease-in-out;
     width: 30%;
     max-width: 600px;
@@ -120,6 +120,12 @@ body {
     .container {
       flex-direction: column;
       padding: 2px;
+    }
+    .description-column {
+      padding: 2px;
+    }
+    .modal-content {
+      width: 100%;
     }
   }
   

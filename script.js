@@ -6,6 +6,12 @@ fetch('./data.json')
     document.getElementById('description').textContent = data.description;
     document.getElementById('captionTitle').textContent = data.captionTitle;
     document.getElementById('captionContent').textContent = data.captionContent;
+
+    // Load images src
+    document.querySelectorAll('.thumbnail').forEach((img, index) => {
+        img.src = `./assets/${data.imageInfo[index].src}`;
+        img.alt = data.imageInfo[index].alt;
+    });
   })
   .catch(error => console.error('Error loading JSON:', error));
 
