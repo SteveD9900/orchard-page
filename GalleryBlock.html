@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Steve Deng">
+  <title>Responsive 3-Column Layout</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="column">
+        <img src="./assets/gallery-1.png" alt="the first picture">
+    </div>
+    <div class="column image-column">
+        <img src="./assets/gallery-2.png" alt="the second picture the middle">
+        <img src="./assets/gallery-3.png" alt="the third picture the middle">
+    </div>
+    <div class="column description-column">
+        <header id="title" class="description-header"></header>
+        <hr>
+        <p id="description" class="description-content"></p>
+        <p id="captionTitle" class="caption-title"></p>
+        <p id="captionContent" class="caption-content"></p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
