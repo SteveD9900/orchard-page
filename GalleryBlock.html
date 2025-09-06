@@ -10,11 +10,18 @@
 <body>
   <div class="container">
     <div class="column">
-        <img src="./assets/gallery-1.png" alt="the first picture">
+        <!-- Trigger Image -->
+        <img class="thumbnail" src="./assets/gallery-1.png" alt="the first picture">
+        <!-- Modal Container -->
+        <div id="imageModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modalImage" />
+          <div id="caption"></div>
+        </div>
     </div>
     <div class="column image-column">
-        <img src="./assets/gallery-2.png" alt="the second picture the middle">
-        <img src="./assets/gallery-3.png" alt="the third picture the middle">
+        <img class="thumbnail" src="./assets/gallery-2.png" alt="the second picture the middle">
+        <img class="thumbnail" src="./assets/gallery-3.png" alt="the third picture the middle">
     </div>
     <div class="column description-column">
         <header id="title" class="description-header"></header>

@@ -1,4 +1,4 @@
-//For JS functions
+// Load data from json file
 fetch('./data.json')
   .then(response => response.json())
   .then(data => {
@@ -8,3 +8,21 @@ fetch('./data.json')
     document.getElementById('captionContent').textContent = data.captionContent;
   })
   .catch(error => console.error('Error loading JSON:', error));
+
+// Image Modal functions
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImage");
+const caption = document.getElementById("caption");
+const closeBtn = document.querySelector(".close");
+
+document.querySelectorAll(".thumbnail").forEach(img => {
+    img.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalImg.src = img.src.replace("thumb", "large"); // optional logic
+        caption.textContent = img.alt;
+    });
+});
+
+closeBtn.onclick = () => {
+    modal.style.display = "none";
+};
