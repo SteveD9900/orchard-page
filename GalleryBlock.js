@@ -9,8 +9,8 @@ fetch('./data.json')
 
     // Load images src
     document.querySelectorAll('.thumbnail').forEach((img, index) => {
-        img.src = `./assets/${data.imageInfo[index].src}`;
-        img.alt = data.imageInfo[index].alt;
+        img.src = `./assets/${data.gelleryImageInfo[index].src}`;
+        img.alt = data.gelleryImageInfo[index].alt;
     });
   })
   .catch(error => console.error('Error loading JSON:', error));

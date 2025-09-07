@@ -116,7 +116,7 @@ body {
   /* #endregion */
 
   /* #region Gallery Block Styles */
-  .card-header {
+  .card-title-section {
     margin: 120px auto 0 auto;
     width: 312px;
     height: 33px;
@@ -131,10 +131,10 @@ body {
   }
 
   .card-column {
-    width: 375px;
+    
   }
 
-  .card-title {
+  .card-name {
     font-family: OpenSans;
     font-size: 21px;
     font-weight: bold;

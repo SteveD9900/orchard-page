@@ -3,5 +3,7 @@
     "description": "Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create flavour and make food more appealing? This is just part of what Hervé This, the father of molecular gastronomy, has dedicated his life to finding out. We spoke to him to find out what his experiments have told him. And in the process even discovered the secret to cooking the perfect egg...",
     "captionTitle": "THE PERFECT EGG",
     "captionContent": "Keep water between 67 and 68°C for a flavourful, tender yolk",
-    "imageInfo": [ {"src": "gallery-1.png", "alt": "Image 1"}, {"src": "gallery-2.png", "alt": "Image 2"}, {"src": "gallery-3.png", "alt": "Image 3"}]
+    "gelleryImageInfo": [ {"src": "gallery-1.png", "alt": "Image 1"}, {"src": "gallery-2.png", "alt": "Image 2"}, {"src": "gallery-3.png", "alt": "Image 3"}],
+    "cardTitle": "Taste the Colours",
+    "cardsImageInfo": [ {"src": "card-1.png", "alt": "Image 1", "title": "RED", "description": "Red food remind us of berries and soft fruits, so we anticipate a sweet taste."}, {"src": "card-2.png", "alt": "Image 2", "title": "Green", "description": "Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours"}, {"src": "card-3.png", "alt": "Image 3", "title": "White", "description": "White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat."}]
 }
