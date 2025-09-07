@@ -16,3 +16,12 @@ fetch('./data.json')
     });
   })
   .catch(error => console.error('Error loading JSON:', error));
+
+const cards = document.querySelectorAll('.card-column');
+const cardNames = document.querySelectorAll('.card-name');
+
+cards.forEach((card, index) => {
+  card.addEventListener('click', () => {
+    console.log(`${cardNames[index].textContent} Card is clicked`);
+  });
+});
