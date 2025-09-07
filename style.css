@@ -117,10 +117,10 @@ body {
 
   /* #region Card Block Styles */
   .card-block {
-    padding: 0px 147px;
+    padding: 120px 147px;
   }
   .card-title-section {
-    margin: 120px auto 70px auto;
+    margin: 0px auto 70px auto;
     width: 312px;
     height: 33px;
     font-family: OpenSans;
