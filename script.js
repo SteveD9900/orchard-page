@@ -8,7 +8,7 @@ fetch('./data.json')
     document.getElementById('captionTitle').textContent = data.captionTitle;
     document.getElementById('captionContent').textContent = data.captionContent;
 
-    // Load images src
+    // Load Gallery Block images
     document.querySelectorAll('.thumbnail').forEach((img, index) => {
         img.src = `./assets/${data.gelleryImageInfo[index].src}`;
         img.alt = data.gelleryImageInfo[index].alt;
@@ -47,6 +47,7 @@ closeBtn.onclick = () => {
     modal.style.display = "none";
 };
 
+// Card Block Click Events
 const cards = document.querySelectorAll('.card-column');
 const cardNames = document.querySelectorAll('.card-name');
 
