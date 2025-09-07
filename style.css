@@ -4,13 +4,15 @@ body {
     background-color: #000;
     color: #fff;
   }
-
-  /* #region Gallery Block Styles */
   .container {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    height: 840px;
+    height: 840px; 
+  }
+
+  /* #region Gallery Block Styles */
+  .gallery-page {
     padding: 120px 147px;
   }
   
@@ -117,7 +119,7 @@ body {
 
   /* #region Gallery Block Styles */
   .card-title-section {
-    margin: 120px auto 0 auto;
+    margin: 120px auto 70px auto;
     width: 312px;
     height: 33px;
     font-family: OpenSans;
