@@ -10,17 +10,16 @@ body {
     gap: 10px;
     height: 840px; 
   }
-
-  /* #region Gallery Block Styles */
-  .gallery-page {
-    padding: 120px 147px;
-  }
-  
   .column {
     flex: 1;
     background-color: #000;
     text-align: center;
     border: 1px solid #000;
+  }
+
+  /* #region Gallery Block Styles */
+  .gallery-page {
+    padding: 120px 147px;
   }
 
   .column img {
@@ -130,10 +129,6 @@ body {
     line-height: 1.1;
     letter-spacing: 1.5px;
     text-align: center;
-  }
-
-  .card-column {
-
   }
 
   .card-name {
