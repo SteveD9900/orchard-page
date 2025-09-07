@@ -10,4 +10,4 @@ Local Environment: Right-click your page.html “Open with Live Server”
 GalleryBlock page will now load at http://127.0.0.1:5500/page.html, (*Note* Double-clicking to open page.html won't work properly, due to CORS policy)
 
 ### Production
-Here is the link for online Page which has been deployed: https://lavender-anabal-47.tiiny.site
+Here is the link for online Page which has been deployed: https://blush-sisile-94.tiiny.site
