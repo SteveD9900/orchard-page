@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    height: 840px; 
   }
   .column {
     flex: 1;
@@ -18,7 +17,7 @@ body {
   }
 
   /* #region Gallery Block Styles */
-  .gallery-page {
+  .gallery-block {
     padding: 120px 147px;
   }
 
@@ -116,7 +115,10 @@ body {
 
   /* #endregion */
 
-  /* #region Gallery Block Styles */
+  /* #region Card Block Styles */
+  .card-block {
+    padding: 0px 147px;
+  }
   .card-title-section {
     margin: 120px auto 70px auto;
     width: 312px;
@@ -164,6 +166,9 @@ body {
     }
     .description-column {
       padding: 2px;
+    }
+    .card-block {
+      padding: 0px 2px;
     }
     .modal-content {
       width: 100%;
